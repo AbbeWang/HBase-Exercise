@@ -10,6 +10,7 @@ import org.apache.hadoop.hbase.util.Bytes;
 public class InsertData {
 
 	public static void main(String[] args) throws IOException{
+		
 		//Instantiating a configuration class
 		Configuration config = HBaseConfiguration.create();
 		
